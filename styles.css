@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+:root {
+	--palebule: hsl(225, 100%, 94%);
+	--brightblue: hsl(245, 75%, 52%);
+	--verypaleblue: hsl(225, 100%, 98%);
+	--desaturatedblue: hsl(224, 23%, 55%);
+	--darkblue: hsl(223, 47%, 23%); 
+	--redhat: 'Red Hat Display', sans-serif;
+}
+
+body {
+	width: 375px;
+	border-right: 1px solid black;
+	background: var(--verypaleblue);
+}
+
+.contents {
+	width: 90%;
+	margin: auto;
+	background: white;
+	border-radius: 20px;
+	text-align: center;
+	font-family: var(--redhat);
+}
+
+.hero {
+	width: 100%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.name {
+	margin: 20px;
+	font-size: 1.5rem;
+	color: var(--darkblue);
+	font-weight: 900;
+}
+
+.info {
+	margin: auto;
+	width: 80%;
+	color: var(--desaturatedblue);
+	margin-bottom: 20px; 
+	font-size: 16px;
+}
+
+.selection {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: var(--verypaleblue); 
+	width: 85%;
+	border-radius: 10px;
+	margin: auto;
+	font-size: 15px;
+	padding: 15px 0px;
+}
+
+.plan {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 2px;
+}
+
+.plan-type {
+	font-weight: 900;
+	color: var(--darkblue)
+}
+
+.price {
+	color: var(--desaturatedblue);
+}
+
+.change-but {
+	font-size: 12px;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.okay {
+	width: 40px;
+	height: 40px;
+}
+
+.one {
+	background: var(--palebule);
+}
+
+.two {
+	background: var(--brightblue);
+}
+
+.three {
+	background: var(--verypaleblue);
+}
+
+.four{ 
+	background: var(--desaturatedblue);  
+}
+
+.five {
+	background: var(--darkblue);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
